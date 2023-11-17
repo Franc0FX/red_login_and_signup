@@ -1,0 +1,200 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    transition: all 0.3s;
+}
+
+body {
+    background-color: rgb(22, 1, 33);
+    padding: 10px 0;
+}
+
+.container {
+    width: 410px;
+    height: 620px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    background: rgb(28, 1, 42);
+}
+
+.container1,
+.container2 {
+    margin: 20px;
+}
+
+.top_up {
+    display: flex;
+    /* margin-top: px; */
+}
+
+.top_up .container1_p,
+.top_up .container2_p {
+    font-size: smaller;
+}
+
+.container1_img,
+.container2_img {
+    display: flex;
+    margin-left: 270px;
+    gap: 0.5rem;
+}
+
+.container1_div .container1_text,
+.container2_div .container2_text {
+    font-size: 25px;
+    margin-top: 4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.formdiv_style {
+    border: 1.5px solid rgb(255, 43, 43);
+    width: 350px;
+    height: 2.5rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.formdiv_style input {
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+    font-size: 15px;
+}
+
+.formdiv_check {
+    margin-bottom: 2rem;
+    margin-left: 25px;
+    margin-top: 1.4rem;
+}
+
+
+.formdiv_check span {
+    color: rgb(255, 43, 43);
+    margin-left: 15px;
+}
+
+
+.formdiv_link,
+.form2div_link {
+    background: rgb(255, 43, 43);
+    padding: 10px 0px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.formdiv_link a,
+.form2div_link a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+.footer {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.footer .p1 {
+    margin-bottom: 2rem;
+}
+
+.footer img {
+    background: white;
+}
+
+.footer .p2 {
+    margin-top: 1.5rem;
+}
+
+.footer .p2 a {
+    text-decoration: none;
+    color: rgb(255, 43, 43);
+    margin-left: 1.4rem;
+}
+
+
+/****** SIGN UP *******/
+
+
+.first_last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.first_last .first_div {
+    border: 1.5px solid rgb(255, 43, 43);
+    border-radius: 20px;
+    width: 150px;
+    height: 2.5rem;
+    padding: 10px 15px;
+}
+
+.first_last .second_div {
+    border: 1.5px solid rgb(255, 43, 43);
+    border-radius: 20px;
+    width: 150px;
+    height: 2.5rem;
+    padding: 10px 15px;
+    margin-right: 25px;
+}
+
+.first_last input {
+    width: 100px;
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.form2div_style {
+    border: 1.5px solid rgb(255, 43, 43);
+    width: 350px;
+    height: 2.5rem;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.form2div_style input {
+    background: transparent;
+    border: none;
+    color: white;
+    outline: none; 
+}
+
+.form2div_check {
+    margin-bottom: 2rem;
+    margin-left: 20px;
+    margin-top: 1.4rem;
+}
+
+.form2div_check span {
+    color: rgb(255, 43, 43);
+}
+
+.container2_div p {
+    margin-top: 5.5rem;
+    text-align: center;
+}
+
+.container2_div p a {
+    text-decoration: none;
+    color: rgb(255, 43, 43);
+    margin-left: 1.4rem;
+}
